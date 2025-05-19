@@ -1,0 +1,7 @@
+-name: first ansible task
+hosts: all
+
+tasks:
+  -name: first task
+  debug:
+      msg:"first task using ansible "
