@@ -42,7 +42,12 @@ Ansible has a large and active community that provides support and resources.
   <br/>
   **playbook:** configuration file 
   <br/>
+  <br/>
   ![Screenshot 2025-05-19 190327](https://github.com/user-attachments/assets/5c287349-ecc3-4f69-acd7-b2b9d89ba396)
 
   <h3>Install ansible for Ubuntu server:</h3>
+  $ sudo apt update
+$ sudo apt install software-properties-common<br/>
+$ sudo add-apt-repository --yes --update ppa:ansible/ansible<br/>
+$ sudo apt install ansible<br/>
   
