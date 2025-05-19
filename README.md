@@ -40,4 +40,9 @@ Ansible has a large and active community that provides support and resources.
   <br/>
   **modules:** A small program that performs actions on a local machine, application programming interface (API), or remote host.
   <br/>
+  **playbook:** configuration file 
+  <br/>
+  ![Screenshot 2025-05-19 190327](https://github.com/user-attachments/assets/5c287349-ecc3-4f69-acd7-b2b9d89ba396)
 
+  <h3>Install ansible for Ubuntu server:</h3>
+  
