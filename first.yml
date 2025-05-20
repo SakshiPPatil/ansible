@@ -1,7 +1,7 @@
--name: first ansible task
-hosts: all
+- name: first ansible file
+  hosts: all
 
-tasks:
-  -name: first task
+  tasks:
+- name: first tasks
   debug:
-      msg:"first task using ansible "
+    msg:"first anisble msg"
