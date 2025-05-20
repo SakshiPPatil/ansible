@@ -17,3 +17,9 @@
     - name:
       debug:
         msg: "This is {{product}}-2 "
+  #create local variable
+    - name: local variable
+      debug:
+        msg: "This is {{four-wheeler}}"
+      vars:
+        four-wheeler: "Thar"
