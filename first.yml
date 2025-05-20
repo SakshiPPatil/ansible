@@ -5,7 +5,8 @@
     product: "mobile"
     fourwheeler: "BMW"
 # call var.txt file
-  vars_files: ./var.txt
+  vars_files: 
+    - ./var.txt
   tasks:
     - name: first task
       debug:
