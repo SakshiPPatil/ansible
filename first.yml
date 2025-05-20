@@ -20,6 +20,6 @@
   #create local variable
     - name: local variable
       debug:
-        msg: "This is {{four-wheeler}}"
+        msg: "This is {{fourwheeler}}"
       vars:
-        four-wheeler: "Thar"
+        fourwheeler: "Thar"
