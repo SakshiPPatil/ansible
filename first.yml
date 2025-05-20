@@ -1,5 +1,8 @@
 - name: first ansible file
   hosts: all
+#create global variable
+  vars:
+    product: "mobile"
   tasks:
     - name: first task
       debug:
@@ -7,3 +10,10 @@
     - name: second task
       debug:
         msg: second task
+# call global variable 
+    - name: call variable
+      debug:
+        msg: "this is {{product}}-1"
+    - name:
+      debug:
+        msg: "This is {{product}}-2 "
