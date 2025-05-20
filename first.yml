@@ -3,6 +3,7 @@
 #create global variable
   vars:
     product: "mobile"
+    fourwheeler: "BMW"
   tasks:
     - name: first task
       debug:
@@ -14,9 +15,13 @@
     - name: call variable
       debug:
         msg: "this is {{product}}-1"
-    - name:
+    - name: call second product
       debug:
         msg: "This is {{product}}-2 "
+    - name: call golbal variable
+      debug:
+        msg: "this is {{fourwheeler}}"
+         
   #create local variable
     - name: local variable
       debug:
