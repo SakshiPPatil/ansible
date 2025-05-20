@@ -1,7 +1,6 @@
 - name: first ansible file
   hosts: all
-
   tasks:
-- name: first tasks
-  debug:
-    msg: "first anisble msg"
+    - name: first task
+      debug:
+        msg: "first ansible msg"
