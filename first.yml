@@ -9,8 +9,8 @@
     - ./var.txt
 #use prompt variable
   vars_prompt:
-    - name: fourwheeler
-      prompt: "Enter car name"
+    - name: product
+      prompt: "Enter product name"
   tasks:
     - name: first task
       debug:
