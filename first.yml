@@ -4,4 +4,4 @@
   tasks:
 - name: first tasks
   debug:
-    msg:"first anisble msg"
+    msg: "first anisble msg"
