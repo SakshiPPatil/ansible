@@ -7,6 +7,10 @@
 # call var.txt file
   vars_files: 
     - ./var.txt
+#use prompt variable
+  vars_prompt:
+    - name: fourwheeler
+      prompt: Enter car name
   tasks:
     - name: first task
       debug:
