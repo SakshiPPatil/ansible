@@ -7,3 +7,11 @@
           name: apache2
           state: latest
           update-cache: yes
+    
+    - name: Check Apache status
+      command: service apache2 status
+      register: apache_status
+
+    - name: Display Apache status
+      debug:
+        msg: "Apache2 service status: {{ apache_status.stdout }}"
