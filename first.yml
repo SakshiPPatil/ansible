@@ -35,3 +35,10 @@
         msg: "This is {{fourwheeler}}"
       vars:
         fourwheeler: "Thar"
+#register variable
+    - name: get hostname
+      shell: hostname
+      register: gethostname
+    - name: print hostname
+      debug:
+        msg: "This is hostname of remote machine {{gethostname}}"
