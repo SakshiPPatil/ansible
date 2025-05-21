@@ -15,3 +15,9 @@
     - name: Display Apache status
       debug:
         msg: "Apache2 service status: {{ apache_status.stdout }}"
+
+    - name: package module
+      package:
+        name: nginx
+        state: present
+      when: ansible_os_family==""Debian""
