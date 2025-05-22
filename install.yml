@@ -21,3 +21,9 @@
         name: nginx
         state: present
       when: ansible_os_family=="Debian"
+
+    - name: start the service
+      systemd: 
+        name: apache2
+        state: started
+        enabled: yes
