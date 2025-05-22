@@ -50,4 +50,21 @@ Ansible has a large and active community that provides support and resources.
 $ sudo apt install software-properties-common<br/>
 $ sudo add-apt-repository --yes --update ppa:ansible/ansible<br/>
 $ sudo apt install ansible<br/>
+
+<h3> steps for ansible configuration</h3> <br/>
+
+1)create the virtual machine(instance/host1) for connect to the ansible server <br/>
+2)use ansible server- <br/>
+  i) check ansible install or not ansible --version.<br/>
+  ii) provide private IP address of host1 in the hosts file of ansible file (/etc/ansible/hosts).<br/>
+  iii) copy private key of host1 machine in ansible server in /etc/ansible directory.<br/>
+  iv) To take access of host1 server to ansible use command-<br/>
+            **ansible -i hosts all -u ubuntu --private-key=./key_name -m shell -a hostname**  =this command provide the access of host1 machine.all the commands runs through host1 server and provide output through ansible server.<br/>
+  v)provide the private key and user in the ansible.cfg file.then run command using<br/>
+                  **ansible -i hosts all -m shell -a hostname** <br/>
+  
+  <h3>vi)create first.yml file</h3> <br/>
+      write the first program<br/>
+      
+      
   
