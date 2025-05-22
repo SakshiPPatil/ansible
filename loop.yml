@@ -8,3 +8,13 @@
         - apple
         - mango
         - orange
+
+  # add packages through loop
+    - name: add packages
+      package: 
+        name: "{{item}}"
+        state: latest
+      loop:
+        - vim
+        - nginx
+        - wget
