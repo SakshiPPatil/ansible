@@ -1,5 +1,6 @@
 - name: loop file
   hosts: all
+  become: true
   tasks:
     - name: looping statement
       debug:
