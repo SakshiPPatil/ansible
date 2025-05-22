@@ -36,6 +36,16 @@
         create: yes
         insertafter: EOF
 
+    - name: Insert custom HTML block into Apache index file
+      ansible.builtin.blockinfile:
+        path: /var/www/html/index.html
+        marker: "<!-- {mark} ANSIBLE MANAGED BLOCK -->"
+        block: |
+          <h1>Welcome to My Apache Server</h1>
+          <p>This server is configured using Ansible.</p>
+        create: yes
+
+
 
 #copy index document
     # - name: copy index file in apache2 server
