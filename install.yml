@@ -45,10 +45,16 @@
           <p>This server is configured using Ansible.</p>
         create: yes
 
+#tags in ansible
+    - name: Install bind9
+      ansible.builtin.apt:
+        name: bind9
+        state: present
+      tags: install
 
 
 #copy index document
-    # - name: copy index file in apache2 server
-    #   copy:
-    #     src: ./index.html
-    #     dest: /var/www/html/index.html
+    - name: copy index file in apache2 server
+      copy:
+        src: ./index.html
+        dest: /var/www/html/index.html
