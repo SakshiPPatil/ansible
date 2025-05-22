@@ -1,0 +1,8 @@
+- name: installation file
+  hosts: all
+  become: true
+  tasks:
+    - name: Add a line to a config file
+      ansible.builtin.lineinfile:
+        path: ./index.html
+        line: 'change lines'
