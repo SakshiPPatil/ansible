@@ -91,10 +91,56 @@ $ sudo apt install ansible<br/>
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-<h2>Modules</h2>
+<h2>Modules</h2> <br/>
 
+In Ansible, a core module refers to a built-in module that is maintained and supported by the Ansible development team. 
+These modules are part of the main Ansible distribution and are considered stable, well-documented, and safe to use in production environments.
+<br/>
 
+**1)apt module for (ubuntu/debian):**
+![Screenshot 2025-05-23 115243](https://github.com/user-attachments/assets/c6a875c7-af9b-4d1a-872e-79e0bbb26c65)
 
+**2)yum module for(centos):** same as apt
+**3)package module:** This is used when we dont know which AMI is used for the server is ubuntu or centos,then package modue perform task as per the os requirement.
+
+![Screenshot 2025-05-23 115942](https://github.com/user-attachments/assets/5250819c-40a6-4653-a2a3-7139c6ddf9f8)
+
+**4)systemd module:**  used for start,restart,stop service
+  ![Screenshot 2025-05-23 120131](https://github.com/user-  attachments/assets/f4ef89d9-d530-40bf-9bf8-f7e6c81c6832)
+
+**5)copy module:** To copy files from local to remote machines
+
+![Screenshot 2025-05-23 121323](https://github.com/user-attachments/assets/ba708cfd-928c-41f7-8d15-1816cbb9852b)
+
+----------------------------------------------------------------------------------
+
+**lineinfile module**:The lineinfile module in Ansible is used to add, modify, or remove lines in a file on a managed host. It's particularly useful for making idempotent changes to configuration files, such as adding configuration directives or ensuring certain lines are present or absent.<br/>
+
+![Screenshot 2025-05-23 123652](https://github.com/user-attachments/assets/31dd3331-6e51-46bc-884a-79cd44208b5b)
+
+**blockinfile module:** The blockinfile module allows you to manage multiple lines of text as a block, which is useful for:<br/>
+      Inserting configuration snippets<br/>
+      Managing multiple related lines together<br/>
+      Making idempotent and easily reversible changes<br/> 
+    
+    ![Screenshot 2025-05-23 123657](https://github.com/user-attachments/assets/ca83180e-669a-4f69-9b1a-d7c53aa7655a)
+
+ **tags in ansible:** In Ansible, tags allow you to run specific parts of your playbook selectively. This is very useful when:<br/>
+            You're debugging and don’t want to run the entire playbook.<br/>
+            You want to re-run only certain tasks (e.g., only restart a service).<br/>
+            You want to group related tasks under a single label.<br/>
+
+![Screenshot 2025-05-23 123702](https://github.com/user-attachments/assets/68d7e372-faec-403a-a459-8a291b0eb947)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+<h2>Looping in ansible:</h2>
+In Ansible, looping allows you to run a task multiple times with different items. This is useful for repetitive tasks such as:<br/>
+  Installing multiple packages<br/>
+  Creating multiple users<br/>
+  Managing several files or services<br/>
+
+![Screenshot 2025-05-23 124203](https://github.com/user-attachments/assets/5ce5f563-ae72-42ba-b6c3-7e9a356c359b) 
 
 
 
