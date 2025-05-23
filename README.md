@@ -97,7 +97,7 @@ In Ansible, a core module refers to a built-in module that is maintained and sup
 These modules are part of the main Ansible distribution and are considered stable, well-documented, and safe to use in production environments.
 <br/>
 
-**1)apt module for (ubuntu/debian):**
+**1)apt module for (ubuntu/debian):** <br/>
 ![Screenshot 2025-05-23 115243](https://github.com/user-attachments/assets/c6a875c7-af9b-4d1a-872e-79e0bbb26c65)
 
 **2)yum module for(centos):** same as apt
@@ -112,7 +112,7 @@ These modules are part of the main Ansible distribution and are considered stabl
 
 ![Screenshot 2025-05-23 121323](https://github.com/user-attachments/assets/ba708cfd-928c-41f7-8d15-1816cbb9852b)
 
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
 **lineinfile module**:The lineinfile module in Ansible is used to add, modify, or remove lines in a file on a managed host. It's particularly useful for making idempotent changes to configuration files, such as adding configuration directives or ensuring certain lines are present or absent.<br/>
 
@@ -123,7 +123,7 @@ These modules are part of the main Ansible distribution and are considered stabl
       Managing multiple related lines together<br/>
       Making idempotent and easily reversible changes<br/> 
     
-    ![Screenshot 2025-05-23 123657](https://github.com/user-attachments/assets/ca83180e-669a-4f69-9b1a-d7c53aa7655a)
+![Screenshot 2025-05-23 123657](https://github.com/user-attachments/assets/ca83180e-669a-4f69-9b1a-d7c53aa7655a)
 
  **tags in ansible:** In Ansible, tags allow you to run specific parts of your playbook selectively. This is very useful when:<br/>
             You're debugging and don’t want to run the entire playbook.<br/>
