@@ -68,10 +68,10 @@ $ sudo apt install ansible<br/>
 
   **Use of different variables in ansible** <br/>
 
-  **Global variable**: Accessible throughout the playbook and roles.<br/>
-  **Local Variables** :refers to variables scoped only within a block, task, or role.<br/>
-  **Register Variables**: Stores the output of a task in variable.<br/>
-  **Prompt Variables**:Used to prompt the user for input at runtime.<br/>
+  **1)Global variable**: Accessible throughout the playbook and roles.<br/>
+  **2)Local Variables** :refers to variables scoped only within a block, task, or role.<br/>
+  **3)Register Variables**: Stores the output of a task in variable.<br/>
+  **4)Prompt Variables**:Used to prompt the user for input at runtime.<br/>
 
   <h3>Example of variables</h3>
 
@@ -79,9 +79,22 @@ $ sudo apt install ansible<br/>
 
 ![Screenshot 2025-05-23 094741](https://github.com/user-attachments/assets/304919ce-120c-43eb-a3df-801608185aa5)
 
-**File variable(write var.txt file and use in .yml file)** :
+**5)File variable(write var.txt file and use in .yml file)** :
     
 ![Screenshot 2025-05-23 100127](https://github.com/user-attachments/assets/f9dcfeec-c595-4a17-9720-ec7b5da32798)
 
 
 ![Screenshot 2025-05-23 100339](https://github.com/user-attachments/assets/f9b3ac1c-3278-47a3-af9c-e99640e4a1ca)
+
+**6)command line variable**: It is used when pass the value at the runtime.<br/>
+           commmand:  ansible-playbook -e variable_name=value filename <br/>
+
+------------------------------------------------------------------------------------------------------------------------------
+
+<h2>Modules</h2>
+
+
+
+
+
+
