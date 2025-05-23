@@ -83,4 +83,5 @@ $ sudo apt install ansible<br/>
     
 ![Screenshot 2025-05-23 100127](https://github.com/user-attachments/assets/f9dcfeec-c595-4a17-9720-ec7b5da32798)
 
-![Screenshot 2025-05-23 100212](https://github.com/user-attachments/assets/abdd1cf3-937f-4fc5-a9e0-2c34c7b69226)
+
+![Screenshot 2025-05-23 100339](https://github.com/user-attachments/assets/f9b3ac1c-3278-47a3-af9c-e99640e4a1ca)
