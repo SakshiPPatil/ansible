@@ -78,3 +78,9 @@ $ sudo apt install ansible<br/>
 ![Screenshot 2025-05-23 094725](https://github.com/user-attachments/assets/309daf4a-3585-49a7-ba0f-1aa29fb47b71)
 
 ![Screenshot 2025-05-23 094741](https://github.com/user-attachments/assets/304919ce-120c-43eb-a3df-801608185aa5)
+
+**File variable(write var.txt file and use in .yml file)** :
+    
+![Screenshot 2025-05-23 100127](https://github.com/user-attachments/assets/f9dcfeec-c595-4a17-9720-ec7b5da32798)
+
+![Screenshot 2025-05-23 100212](https://github.com/user-attachments/assets/abdd1cf3-937f-4fc5-a9e0-2c34c7b69226)
