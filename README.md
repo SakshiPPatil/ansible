@@ -65,6 +65,16 @@ $ sudo apt install ansible<br/>
   
   <h3>vi)create first.yml file</h3> <br/>
       write the first program<br/>
-      
-      
-  
+
+  **Use of different variables in ansible** <br/>
+
+  **Global variable**: Accessible throughout the playbook and roles.<br/>
+  **Local Variables** :refers to variables scoped only within a block, task, or role.<br/>
+  **Register Variables**: Stores the output of a task in variable.<br/>
+  **Prompt Variables**:Used to prompt the user for input at runtime.<br/>
+
+  <h3>Example of variables</h3>
+
+![Screenshot 2025-05-23 094725](https://github.com/user-attachments/assets/309daf4a-3585-49a7-ba0f-1aa29fb47b71)
+
+![Screenshot 2025-05-23 094741](https://github.com/user-attachments/assets/304919ce-120c-43eb-a3df-801608185aa5)
