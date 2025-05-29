@@ -1,0 +1,4 @@
+- name: run role
+  hosts: all
+  roles:
+    - sample-role
