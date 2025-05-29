@@ -10,7 +10,7 @@
   package:
     name: httpd
     state: latest
-    enabled: yes
+    enabled: yes    
 
 - name: copy index.html file
   copy:
