@@ -1,4 +1,5 @@
 - name: run role
   hosts: all
+  become: true
   roles:
     - sample-role
