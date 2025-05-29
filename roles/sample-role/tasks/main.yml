@@ -6,9 +6,9 @@
   debug:
     msg: "this is varible name {{text}}"
 
-- name: install httpd
+- name: install apache2
   package:
-    name: httpd
+    name: apache2
     state: present
     enabled: yes    
 
