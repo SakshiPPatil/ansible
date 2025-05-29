@@ -9,10 +9,10 @@
 - name: install httpd
   package:
     name: httpd
-    state: latest
-      
+    state: present
+    enabled: yes    
 
 - name: copy index.html file
   copy:
-    src: index.html
+    src: files/index.html
     dest: /var/www/html/index.html
