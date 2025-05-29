@@ -10,7 +10,7 @@
   package:
     name: apache2
     state: present
-    enabled: yes    
+    update-cache: yes   
 
 - name: copy index.html file
   copy:
